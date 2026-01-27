@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ATM Web App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="atm-box">
+    <h2>ATM Machine</h2>
+
+    <p class="balance">Balance: ₹ <span id="balance">10000</span></p>
+
+    <input type="number" id="amount" placeholder="Enter amount" />
+
+    <div class="buttons">
+        <button onclick="deposit()">Deposit</button>
+        <button onclick="withdraw()">Withdraw</button>
+        <button onclick="checkBalance()">Check Balance</button>
+    </div>
+
+    <p id="message"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
